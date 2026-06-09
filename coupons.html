@@ -66,6 +66,20 @@
       color: #071426;
     }
 
+    /* Improve contrast when modal is the light/white variant */
+    .coupon-modal-box.white .modal-code {
+      color: #0b2a3a; /* darker, high-contrast code color */
+    }
+
+    .coupon-modal-box.white .modal-msg,
+    .coupon-modal-box.white #timerText {
+      color: rgba(7, 20, 38, 0.8); /* darker message and timer text */
+    }
+
+    .coupon-modal-box.white .timer-fill {
+      background: linear-gradient(90deg, #0b7fb6, #d14b5b); /* visible on light bg */
+    }
+
     .modal-code {
       font-size: 1.2rem;
       font-weight: 900;
@@ -331,6 +345,22 @@
     .mini-ticket.white {
       background: linear-gradient(135deg, rgba(255,255,255,0.96), rgba(226,240,255,0.76));
       color: #071426;
+    }
+
+    /* Improve readability for white mini-tickets shown in the floating spotlight */
+    .mini-ticket.white strong {
+      color: #071426; /* ensure title is dark */
+    }
+
+    .mini-ticket.white span {
+      color: rgba(7, 20, 38, 0.85); /* darker meta text for contrast */
+      font-weight: 700;
+    }
+
+    /* Add a subtle border so white tickets stand out on light backdrops */
+    .mini-ticket.white {
+      border: 1px solid rgba(7, 20, 38, 0.06);
+      box-shadow: 0 8px 24px rgba(7, 20, 38, 0.06);
     }
 
     .mini-ticket.pink {

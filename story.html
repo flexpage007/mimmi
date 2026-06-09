@@ -855,9 +855,9 @@
 
     .stamp {
       padding: 5px 8px;
-      border: 1px dashed rgba(191, 239, 255, 0.38);
+      border: 1px dashed rgba(0, 0, 0, 0.58);
       border-radius: 4px;
-      color: rgba(219, 250, 255, 0.82);
+      color: rgba(0, 0, 0, 0.82);
       font-size: 0.72rem;
       letter-spacing: 0.08em;
       text-transform: uppercase;
@@ -866,7 +866,8 @@
 
     .photo-stack {
       position: relative;
-      min-height: 260px;
+      /* Increase stack height so polaroid images don't get clipped */
+      min-height: 360px;
       margin-top: 18px;
     }
 
@@ -893,7 +894,9 @@
 
     .polaroid img {
       width: 100%;
-      aspect-ratio: 1 / 1.05;
+      /* allow images to expand in height while keeping width constrained */
+      height: auto;
+      max-height: 420px;
       display: block;
       object-fit: cover;
       border-radius: 3px;
@@ -1090,14 +1093,32 @@
 
     .floating-photo {
       position: absolute;
-      bottom: -120px;
-      width: 96px;
-      height: 124px;
-      border-radius: 5px;
-      background: rgba(238, 249, 255, 0.9);
-      opacity: 0.18;
-      transform: rotate(var(--r));
-      animation: floatUp 8s ease-in infinite;
+      bottom: -200px;
+      width: 120px;
+      height: auto;
+      border-radius: 12px;
+      animation: floatPhoto 15s linear infinite;
+      z-index: -10;
+    }
+
+    @keyframes floatPhoto {
+      from {
+        transform: translateY(0) rotate(-5deg);
+        opacity: 0;
+      }
+
+      10% {
+        opacity: 1;
+      }
+
+      90% {
+        opacity: 1;
+      }
+
+      to {
+        transform: translateY(-120vh) rotate(10deg);
+        opacity: 0;
+      }
     }
 
     @keyframes petalDrift {
@@ -1438,44 +1459,84 @@
 
     const memories = [
       {
-        date: "14 February 2026",
+        date: "12 February 2026",
         title: "Where The Map Begins",
         preview: "The first little mark on a story I did not want to end.",
-        note: "Some dates stay soft in your heart. This one became the beginning of a road I still want to keep walking with you.",
-        stamps: ["first page", "blue rose"],
-        images: previewPhotos
+        note: "When we were just Friends for the last time",
+        stamps: ["first page", "first smile"],
+        images: ["M/1/Image001.jpg", "M/1/Image002.jpg", "M/1/Image003.jpg"]
       },
       {
-        date: "22 February 2026",
-        title: "The First Real Smile",
-        preview: "A tiny moment that made everything feel warmer.",
-        note: "I remember how ordinary it should have felt, and how somehow it did not. You made a normal day feel like it had been waiting for you.",
+        date: "14 February 2026",
+        title: "The Start of The Story",
+        preview: "The person who came to bright my day .",
+        note: "Some dates stay soft in your heart. This one became the beginning of a road I still want to keep walking with you.",
         stamps: ["saved", "soft light"],
         images: []
       },
       {
+        date: "27 February 2026",
+        title: "Our first movie ",
+        preview: "The Unexpected Movie Date.",
+        note: "That day felt like a little movie scene where the world slowed down just for us, and I realized how much I wanted to spend time with you.",
+        stamps: ["movie", "date"],
+        images: ["M/7/Image001.jpg", "M/7/Image002.jpg", "M/7/Image003.jpg"]
+      },
+      {
         date: "3 March 2026",
-        title: "Favorite Notification",
-        preview: "The phone lit up, and suddenly the day did too.",
-        note: "There are messages people reply to, and then there are messages people wait for. Yours became the kind I smiled at before opening.",
-        stamps: ["tiny spark", "kept"],
-        images: []
+        title: "Holi The Festival of Colors",
+        preview: "First holi with the most favorite person.",
+        note: "That day was a burst of colors, laughter, and the kind of joy that only comes from sharing something new and beautiful with someone you care about.",
+        stamps: ["colors", "Holi"],
+        images: ["M/2/Image001.jpg", "M/2/Image002.jpg", "M/2/Image003.jpg"]
       },
       {
-        date: "12 April 2026",
-        title: "Long Night Talks",
-        preview: "A quiet kind of magic after the world slowed down.",
-        note: "Some conversations do not need anything dramatic. Just time, honesty, and the feeling that the other person is becoming home in small ways.",
-        stamps: ["moonlit", "secret"],
-        images: []
+        date: "19 March 2026",
+        title: "A Long Date",
+        preview: "Chuchura and Naihati with you.",
+        note: "The day was the most memorable one. We went to Chuchura and Naihati together, the first kiss , Mehendi oh our hands.",
+        stamps: ["mehendi", "date"],
+        images: ["M/3/Image001.jpg", "M/3/Image002.jpg", "M/3/Image003.jpg"]
       },
       {
-        date: "18 May 2026",
+        date: "2 April 2026",
+        title: "Twining in RED",
+        preview: "Both twining wearing our favorite Team Jersey.",
+        note: "A sweet memory of cheering for our favorite team together.",
+        stamps: ["RCB", "Park"],
+        images: ["M/5/Image001.jpg", "M/5/Image002.jpg", "M/5/Image003.jpg", "M/5/Image004.jpg"]
+      },
+      {
+        date: "23 April 2026",
         title: "Little Promises",
-        preview: "The kind of hope you keep folded carefully.",
-        note: "Every future thought with you feels like a folded note tucked inside a book. Quiet, precious, and impossible not to return to.",
-        stamps: ["future ink", "promise"],
-        images: []
+        preview: "A playful day in the park.",
+        note: "A sweet and spicy moment in the park.",
+        stamps: ["flowers", "promise"],
+        images: ["M/8/Image001.jpg", "M/8/Image002.jpg", "M/8/Image003.jpg"]
+      },
+      {
+        date: "28 April 2026",
+        title: "Little Adventure",
+        preview: "Searching peace and beauty in Nature of Chakdaha.",
+        note: "The Hoogly river, the quiet roads, the little shops, and the peaceful moments we shared there made it a day I wish we could relive again and again.",
+        stamps: ["adventure", "date"],
+        images: ["M/4/Image001.jpg", "M/4/Image002.jpg", "M/4/Image003.jpg", "M/4/Image004.jpg"]
+      },
+      {
+        date: "7 May 2026",
+        title: "Little Promises",
+        preview: "The Rainy day in Kalyani.",
+        note: "The most spicy and adventurous day in the rain. We got drenched, laughed like crazy, and found beauty in every raindrop that fell around us.",
+        stamps: ["rain", "promise"],
+        images: ["M/6/Image001.jpg", "M/6/Image002.jpg"]
+      },
+      {
+        date: "5 June 2026",
+        title: "The Rainy Day",
+        preview: "The Mixed Day of Rain and Clay.",
+        note: "The weather and mood both was off , but it made our bond stronger. We made clay together and it was a fun experience. It was a day that reminded me that even in the quiet, imperfect moments, being with you makes everything feel right.",
+        stamps: ["rain", "activity"],
+        images: ["M/9/Image001.jpg", "M/9/Image002.jpg", "M/9/Image003.jpg"]
       },
       {
         date: "16 June 2026",
@@ -1716,42 +1777,33 @@
       floatLayer.appendChild(floatFragment);
     }
 
+    let music;
+    // let musicOn = false;
+
     async function toggleMusic() {
       const button = document.getElementById("musicToggle");
-      if (!audioContext) {
-        const AudioCtx = window.AudioContext || window.webkitAudioContext;
-        if (!AudioCtx) return;
 
-        audioContext = new AudioCtx();
-        musicGain = audioContext.createGain();
-        musicGain.gain.value = 0;
-        musicGain.connect(audioContext.destination);
-
-        const filter = audioContext.createBiquadFilter();
-        filter.type = "lowpass";
-        filter.frequency.value = 950;
-        filter.Q.value = 0.7;
-        filter.connect(musicGain);
-
-        [174.61, 220, 261.63].forEach((frequency, index) => {
-          const osc = audioContext.createOscillator();
-          const gain = audioContext.createGain();
-          osc.type = index === 1 ? "triangle" : "sine";
-          osc.frequency.value = frequency;
-          gain.gain.value = index === 1 ? 0.035 : 0.026;
-          osc.connect(gain);
-          gain.connect(filter);
-          osc.start();
-        });
+      if (!music) {
+        music = new Audio("The Smiths - There Is A Light That Never Goes Out (Official Audio).mp3"); // your music file
+        music.loop = true;
+        music.volume = 0.7;
       }
 
-      if (audioContext.state === "suspended") await audioContext.resume();
+      if (musicOn) {
+        music.pause();
+      } else {
+        await music.play();
+      }
+
       musicOn = !musicOn;
-      const target = musicOn ? 0.72 : 0;
-      musicGain.gain.cancelScheduledValues(audioContext.currentTime);
-      musicGain.gain.linearRampToValueAtTime(target, audioContext.currentTime + 0.35);
+
       button.setAttribute("aria-pressed", String(musicOn));
-      button.setAttribute("aria-label", musicOn ? "Pause soft background music" : "Play soft background music");
+      button.setAttribute(
+        "aria-label",
+        musicOn
+          ? "Pause background music"
+          : "Play background music"
+      );
     }
 
     function renderConstellation() {
@@ -1779,13 +1831,43 @@
 
     function renderFinalFloats() {
       const layer = document.getElementById("finalFloats");
-      for (let i = 0; i < 7; i += 1) {
-        const item = document.createElement("span");
-        item.className = "floating-photo";
-        item.style.left = `${8 + Math.random() * 78}%`;
-        item.style.setProperty("--r", `${-8 + Math.random() * 16}deg`);
-        item.style.animationDelay = `${i * 1.1}s`;
-        layer.appendChild(item);
+
+      const photos = [
+        "pic/Image001.jpg",
+        "pic/Image002.jpg",
+        "pic/Image003.jpg",
+        "pic/Image004.jpg",
+        "pic/Image005.jpg",
+        "pic/Image006.jpg",
+        "pic/Image007.jpg",
+        "pic/Image008.jpg",
+        "pic/Image009.jpg",
+        "pic/Image010.jpg",
+        "pic/Image011.jpg",
+        "pic/Image012.jpg",
+        "pic/Image013.jpg",
+        "pic/Image014.jpg",
+        "pic/Image015.jpg",
+        "pic/Image016.jpg",
+        "pic/Image017.jpg",
+        "pic/Image018.jpg",
+        "pic/Image019.jpg",
+        "pic/Image020.jpg",
+        "pic/Image021.jpg",
+        
+      ];
+
+      for (let i = 0; i < 25; i++) {
+        const img = document.createElement("img");
+
+        img.src = photos[Math.floor(Math.random() * photos.length)];
+
+        img.className = "floating-photo";
+
+        img.style.left = `${Math.random() * 90}%`;
+        img.style.animationDelay = `${Math.random() * 30}s`;
+
+        layer.appendChild(img);
       }
     }
 

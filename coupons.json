@@ -1,324 +1,447 @@
 [
   {
-    "id": "unlimited-kiss",
+    "id": "blue-call",
     "code": "BLUE-001",
-    "title": "Unlimited Kiss Coupon",
+    "title": "Call",
     "tier": "unlimited",
-    "description": "Redeem any time for a kiss, no expiry, no questions, only love.",
-    "tags": ["kiss", "romantic", "blue", "unlimited"]
+    "description": "Unlimited calls whenever needed.",
+    "tags": [
+      "blue",
+      "unlimited"
+    ]
   },
   {
-    "id": "unlimited-hug",
+    "id": "blue-kiss",
     "code": "BLUE-002",
-    "title": "Unlimited Hug Coupon",
+    "title": "Kiss",
     "tier": "unlimited",
-    "description": "For every happy day, sad day, sleepy day, or random moment that needs a hug.",
-    "tags": ["hug", "comfort", "blue", "unlimited"]
+    "description": "Unlimited kisses whenever needed.",
+    "tags": [
+      "blue",
+      "unlimited"
+    ]
   },
   {
-    "id": "unlimited-gossip",
+    "id": "blue-cute-names",
+    "code": "BLUE-011",
+    "title": "Cute Names",
+    "tier": "unlimited",
+    "description": "Unlimited cute nicknames.",
+    "tags": [
+      "blue",
+      "unlimited"
+    ]
+  },
+  {
+    "id": "blue-gossips",
     "code": "BLUE-003",
-    "title": "Unlimited Gossip Session",
+    "title": "Gossips",
     "tier": "unlimited",
-    "description": "Tea, secrets, drama, tiny details, and full attention from me.",
-    "tags": ["gossip", "talk", "blue", "unlimited"]
+    "description": "Unlimited gossip sessions.",
+    "tags": [
+      "blue",
+      "unlimited"
+    ]
   },
   {
-    "id": "unlimited-hand-hold",
+    "id": "blue-love-you",
     "code": "BLUE-004",
-    "title": "Unlimited Hand Holding",
+    "title": "Love You",
     "tier": "unlimited",
-    "description": "For walks, waiting, sitting together, or just because your hand belongs in mine.",
-    "tags": ["hand", "walk", "blue", "unlimited"]
+    "description": "Unlimited expressions of affection.",
+    "tags": [
+      "blue",
+      "unlimited"
+    ]
   },
   {
-    "id": "one-movie-night",
-    "code": "RED-001",
-    "title": "Movie Night Pick",
-    "tier": "one-use",
-    "maxUses": 1,
-    "description": "You choose the movie, snacks, mood, and I cannot complain even once.",
-    "tags": ["movie", "date", "red", "one use"]
-  },
-  {
-    "id": "one-food-treat",
-    "code": "RED-002",
-    "title": "Favorite Food Treat",
-    "tier": "one-use",
-    "maxUses": 2,
-    "description": "One special food treat of your choice, made sweeter because it is for you.",
-    "tags": ["food", "treat", "red", "2 uses"]
-  },
-  {
-    "id": "one-no-argument",
-    "code": "RED-003",
-    "title": "No Argument Pass",
-    "tier": "one-use",
-    "maxUses": 3,
-    "description": "A tiny royal pass where I listen, agree, and choose peace with a smile.",
-    "tags": ["peace", "cute", "red", "3 uses"]
-  },
-  {
-    "id": "one-surprise-date",
-    "code": "RED-004",
-    "title": "Surprise Date Plan",
-    "tier": "one-use",
-    "maxUses": 1,
-    "description": "I plan one sweet surprise date around what makes you happiest.",
-    "tags": ["date", "surprise", "red", "one use"]
-  },
-  {
-    "id": "pink-long-call",
-    "code": "PINK-001",
-    "title": "Long Call Coupon",
-    "tier": "pink",
-    "maxUses": 5,
-    "description": "For slow calls, soft talks, random stories, and staying a little longer together.",
-    "tags": ["call", "talk", "pink", "5 uses"]
-  },
-  {
-    "id": "pink-cute-demand",
-    "code": "PINK-002",
-    "title": "Cute Demand Coupon",
-    "tier": "pink",
-    "maxUses": 7,
-    "description": "Seven times you can make one cute demand and I must try my best to do it.",
-    "tags": ["cute", "demand", "pink", "7 uses"]
-  },
-  {
-    "id": "pink-silly-photo",
-    "code": "PINK-003",
-    "title": "Silly Selfie Coupon",
-    "tier": "pink",
-    "maxUses": 10,
-    "description": "Ten silly selfies, funny faces, sweet poses, and memories saved just for us.",
-    "tags": ["selfie", "photo", "pink", "10 uses"]
-  },
-  {
-    "id": "ten-compliments",
-    "code": "WHITE-001",
-    "title": "10 Compliments Coupon",
-    "tier": "ten-times",
-    "description": "Ten honest compliments, delivered whenever you want to hear how special you are.",
-    "tags": ["compliments", "white", "10 times"]
-  },
-  {
-    "id": "ten-song-dedications",
-    "code": "WHITE-002",
-    "title": "10 Song Dedications",
-    "tier": "ten-times",
-    "description": "Ten songs picked for you, your mood, your beauty, or our little memories.",
-    "tags": ["songs", "music", "white", "10 times"]
-  },
-  {
-    "id": "ten-goodnight-texts",
-    "code": "WHITE-003",
-    "title": "10 Extra Sweet Goodnight Texts",
-    "tier": "ten-times",
-    "description": "For nights when you want a longer, softer goodnight from your boyfriend.",
-    "tags": ["goodnight", "text", "white", "10 times"]
-  },
-  {
-    "id": "ten-photo-clicks",
-    "code": "WHITE-004",
-    "title": "10 Cute Photo Clicks",
-    "tier": "ten-times",
-    "description": "Ten times I become your personal photographer and hype person.",
-    "tags": ["photo", "cute", "white", "10 times"]
-  },
-  {
-    "id": "unlimited-forehead-kiss",
+    "id": "blue-shoulder-rest",
     "code": "BLUE-005",
-    "title": "Unlimited Forehead Kiss",
+    "title": "Shoulder Rest",
     "tier": "unlimited",
-    "description": "For gentle forehead kisses whenever you need comfort, calm, or extra love.",
-    "tags": ["forehead kiss", "comfort", "blue", "unlimited"]
+    "description": "A comforting shoulder whenever needed.",
+    "tags": [
+      "blue",
+      "unlimited"
+    ]
   },
   {
-    "id": "unlimited-listening",
+    "id": "blue-hand-holding",
     "code": "BLUE-006",
-    "title": "Unlimited Listening Time",
+    "title": "Hand Holding",
     "tier": "unlimited",
-    "description": "Talk about anything, tiny or huge, and I will listen properly.",
-    "tags": ["listen", "talk", "blue", "unlimited"]
+    "description": "Unlimited hand-holding moments.",
+    "tags": [
+      "blue",
+      "unlimited"
+    ]
   },
   {
-    "id": "unlimited-random-i-love-you",
+    "id": "blue-hug",
     "code": "BLUE-007",
-    "title": "Unlimited I Love You",
+    "title": "Hug",
     "tier": "unlimited",
-    "description": "Redeem whenever you want to hear me say exactly how much I love you.",
-    "tags": ["love", "romantic", "blue", "unlimited"]
+    "description": "Unlimited hugs.",
+    "tags": [
+      "blue",
+      "unlimited"
+    ]
   },
   {
-    "id": "unlimited-shoulder-rest",
+    "id": "blue-support",
     "code": "BLUE-008",
-    "title": "Unlimited Shoulder Rest",
+    "title": "Support",
     "tier": "unlimited",
-    "description": "My shoulder is officially reserved for you whenever you feel sleepy or soft.",
-    "tags": ["comfort", "rest", "blue", "unlimited"]
+    "description": "Unlimited support and encouragement.",
+    "tags": [
+      "blue",
+      "unlimited"
+    ]
   },
   {
-    "id": "unlimited-cute-nickname",
+    "id": "blue-reassurance",
     "code": "BLUE-009",
-    "title": "Unlimited Cute Nicknames",
+    "title": "Reassurance",
     "tier": "unlimited",
-    "description": "A never-ending supply of sweet names, silly names, and names only meant for you.",
-    "tags": ["nickname", "cute", "blue", "unlimited"]
+    "description": "Unlimited reassurance.",
+    "tags": [
+      "blue",
+      "unlimited"
+    ]
   },
   {
-    "id": "unlimited-reassurance",
+    "id": "blue-listening-time",
     "code": "BLUE-010",
-    "title": "Unlimited Reassurance",
+    "title": "Listening Time",
     "tier": "unlimited",
-    "description": "For every overthinking moment, I remind you that you are loved and safe with me.",
-    "tags": ["reassurance", "comfort", "blue", "unlimited"]
+    "description": "Unlimited listening time.",
+    "tags": [
+      "blue",
+      "unlimited"
+    ]
   },
   {
-    "id": "red-dessert-date",
-    "code": "RED-005",
-    "title": "Dessert Date Coupon",
-    "tier": "one-use",
-    "maxUses": 1,
-    "description": "One sweet dessert date where you choose the place and the first bite is yours.",
-    "tags": ["dessert", "date", "red", "one use"]
-  },
-  {
-    "id": "red-no-teasing-pass",
-    "code": "RED-006",
-    "title": "No Teasing Pass",
+    "id": "red-boyfriend-badge",
+    "code": "RED-003",
+    "title": "Boyfriend Badge",
     "tier": "one-use",
     "maxUses": 2,
-    "description": "Two times I must stop teasing immediately and become extra sweet instead.",
-    "tags": ["teasing", "cute", "red", "2 uses"]
+    "description": "I will wear a boyfriend badge for you for a day.",
+    "tags": [
+      "red",
+      "2 uses"
+    ]
   },
   {
-    "id": "red-pick-my-outfit",
-    "code": "RED-007",
-    "title": "Pick My Outfit",
+    "id": "red-full-body-massage",
+    "code": "RED-004",
+    "title": "Full Body Massage",
     "tier": "one-use",
     "maxUses": 1,
-    "description": "You choose what I wear for one date, call, or special day.",
-    "tags": ["outfit", "date", "red", "one use"]
+    "description": "One full body massage coupon.",
+    "tags": [
+      "red",
+      "1 use"
+    ]
   },
   {
-    "id": "red-playlist-for-you",
-    "code": "RED-008",
-    "title": "Custom Playlist",
-    "tier": "one-use",
-    "maxUses": 1,
-    "description": "One playlist made only for you, your mood, and the way you make me feel.",
-    "tags": ["playlist", "music", "red", "one use"]
-  },
-  {
-    "id": "red-voice-note",
-    "code": "RED-009",
-    "title": "Sweet Voice Note",
+    "id": "red-anything",
+    "code": "RED-005",
+    "title": "Anything",
     "tier": "one-use",
     "maxUses": 3,
-    "description": "Three sweet voice notes for when text is not enough.",
-    "tags": ["voice note", "message", "red", "3 uses"]
+    "description": "Three wildcard coupons. Each redemption must be different.",
+    "tags": [
+      "red",
+      "3 uses"
+    ]
   },
   {
-    "id": "red-memory-letter",
-    "code": "RED-010",
-    "title": "Memory Letter",
+    "id": "red-no-teasing",
+    "code": "RED-006",
+    "title": "No Teasing",
+    "tier": "one-use",
+    "maxUses": 3,
+    "description": "A no-teasing pass valid three times.",
+    "tags": [
+      "red",
+      "3 uses"
+    ]
+  },
+  {
+    "id": "red-surprise-date",
+    "code": "RED-007",
+    "title": "Surprise Date",
     "tier": "one-use",
     "maxUses": 1,
-    "description": "One little love letter about a memory of us that I never want to forget.",
-    "tags": ["letter", "memory", "red", "one use"]
+    "description": "One surprise date planned just for you.",
+    "tags": [
+      "red",
+      "1 use"
+    ]
   },
   {
-    "id": "pink-walk-together",
-    "code": "PINK-004",
-    "title": "Walk Together Coupon",
-    "tier": "pink",
-    "maxUses": 5,
-    "description": "Five walks together, with slow steps, hand holding, and no hurry.",
-    "tags": ["walk", "date", "pink", "5 uses"]
+    "id": "red-memories-later",
+    "code": "RED-008",
+    "title": "Memories Later",
+    "tier": "one-use",
+    "maxUses": 1,
+    "description": "A Letter for the old memories.",
+    "tags": [
+      "red",
+      "1 use"
+    ]
   },
   {
-    "id": "pink-random-cute-task",
-    "code": "PINK-005",
-    "title": "Random Cute Task",
+    "id": "red-hip-massage",
+    "code": "RED-002",
+    "title": "Hip Massage",
+    "tier": "one-use",
+    "maxUses": 3,
+    "description": "A relaxing hip , lower hip and glute massage coupon.",
+    "tags": [
+      "red",
+      "3 uses"
+    ]
+  },
+  {
+    "id": "red-emraan-hashmi",
+    "code": "RED-009",
+    "title": "Emraan Hashmi",
+    "tier": "one-use",
+    "maxUses": 3,
+    "description": "I will become emraan hashmi for that day.",
+    "tags": [
+      "red",
+      "3 uses"
+    ]
+  },
+  {
+    "id": "red-chest-worship",
+    "code": "RED-001",
+    "title": "Chest Worship",
+    "tier": "one-use",
+    "maxUses": 2,
+    "description": "Redeem for a special chest massage.",
+    "tags": [
+      "red",
+      "2 uses"
+    ]
+  },
+  {
+    "id": "pink-foot-massage",
+    "code": "PINK-001",
+    "title": "Foot Massage",
     "tier": "pink",
     "maxUses": 6,
-    "description": "Six little tasks from you that I must do with full boyfriend energy.",
-    "tags": ["task", "cute", "pink", "6 uses"]
+    "description": "A relaxing foot massage coupon.",
+    "tags": [
+      "pink",
+      "6 uses"
+    ]
+  },
+  {
+    "id": "pink-momo-treat",
+    "code": "PINK-002",
+    "title": "Momo Treat",
+    "tier": "pink",
+    "maxUses": 8,
+    "description": "Enjoy a delicious momo treat.",
+    "tags": [
+      "pink",
+      "8 uses"
+    ]
+  },
+  {
+    "id": "pink-origami",
+    "code": "PINK-003",
+    "title": "Origami",
+    "tier": "pink",
+    "maxUses": 7,
+    "description": "Receive a handmade origami creation.",
+    "tags": [
+      "pink",
+      "7 uses"
+    ]
+  },
+  {
+    "id": "pink-random-date",
+    "code": "PINK-004",
+    "title": "Date On A Random Day",
+    "tier": "pink",
+    "maxUses": 5,
+    "description": "A spontaneous random-day date.",
+    "tags": [
+      "pink",
+      "5 uses"
+    ]
+  },
+  {
+    "id": "pink-close-argument",
+    "code": "PINK-005",
+    "title": "Close Argument",
+    "tier": "pink",
+    "maxUses": 5,
+    "description": "Redeem to peacefully end an argument.",
+    "tags": [
+      "pink",
+      "5 uses"
+    ]
+  },
+  {
+    "id": "pink-pick-outfit",
+    "code": "PINK-006",
+    "title": "Pick My Outfit",
+    "tier": "pink",
+    "maxUses": 7,
+    "description": "Choose the outfit for the day.",
+    "tags": [
+      "pink",
+      "7 uses"
+    ]
+  },
+  {
+    "id": "pink-be-cute",
+    "code": "PINK-007",
+    "title": "Be Cute",
+    "tier": "pink",
+    "maxUses": 8,
+    "description": "Extra cuteness on demand.",
+    "tags": [
+      "pink",
+      "8 uses"
+    ]
   },
   {
     "id": "pink-extra-attention",
-    "code": "PINK-006",
-    "title": "Extra Attention Coupon",
+    "code": "PINK-008",
+    "title": "Extra Attention",
     "tier": "pink",
     "maxUses": 8,
-    "description": "Eight times you can claim my extra attention, no distractions allowed.",
-    "tags": ["attention", "love", "pink", "8 uses"]
+    "description": "Claim some extra attention.",
+    "tags": [
+      "pink",
+      "8 uses"
+    ]
   },
   {
-    "id": "pink-date-planning",
-    "code": "PINK-007",
-    "title": "Date Planning Tokens",
+    "id": "pink-block",
+    "code": "PINK-009",
+    "title": "Block",
     "tier": "pink",
     "maxUses": 5,
-    "description": "Five times you can choose the date vibe and I handle the planning.",
-    "tags": ["date", "plan", "pink", "5 uses"]
+    "description": "You can choose whom to block .",
+    "tags": [
+      "pink",
+      "5 uses"
+    ]
   },
   {
     "id": "pink-inside-joke",
-    "code": "PINK-008",
-    "title": "Inside Joke Revival",
+    "code": "PINK-010",
+    "title": "Inside Joke",
     "tier": "pink",
     "maxUses": 9,
-    "description": "Nine times we bring back an old joke, laugh again, and make it ours forever.",
-    "tags": ["joke", "laugh", "pink", "9 uses"]
+    "description": "Bring back a favorite inside joke.",
+    "tags": [
+      "pink",
+      "9 uses"
+    ]
   },
   {
-    "id": "white-heartfelt-paragraphs",
+    "id": "pink-hypothetical-question-game",
+    "code": "PINK-011",
+    "title": "Hypothetical Question Game",
+    "tier": "pink",
+    "maxUses": 7,
+    "description": "A fun hypothetical question session.",
+    "tags": [
+      "pink",
+      "7 uses"
+    ]
+  },
+  {
+    "id": "white-love-bite",
+    "code": "WHITE-001",
+    "title": "Love Bite",
+    "tier": "ten-times",
+    "maxUses": 20,
+    "description": "20 Love Bites .",
+    "tags": [
+      "white",
+      "20 times"
+    ]
+  },
+  {
+    "id": "white-silly-selfie",
+    "code": "WHITE-002",
+    "title": "Silly Selfie",
+    "tier": "ten-times",
+    "maxUses": 10,
+    "description": "Take a silly selfie together.",
+    "tags": [
+      "white",
+      "10 uses"
+    ]
+  },
+  {
+    "id": "white-movie-night",
+    "code": "WHITE-003",
+    "title": "Movie Night",
+    "tier": "ten-times",
+    "maxUses": 10,
+    "description": "Movie night of your choice.",
+    "tags": [
+      "white",
+      "10 uses"
+    ]
+  },
+  {
+    "id": "white-paragraph",
+    "code": "WHITE-004",
+    "title": "Paragraph",
+    "tier": "ten-times",
+    "maxUses": 10,
+    "description": "Receive a heartfelt paragraph.",
+    "tags": [
+      "white",
+      "10 uses"
+    ]
+  },
+  {
+    "id": "white-sorry",
     "code": "WHITE-005",
-    "title": "10 Heartfelt Paragraphs",
+    "title": "Sorry",
     "tier": "ten-times",
-    "description": "Ten long paragraphs about you, us, and the reasons you mean so much to me.",
-    "tags": ["paragraph", "love", "white", "10 times"]
+    "maxUses": 20,
+    "description": "An apology coupon redeemable twenty times.",
+    "tags": [
+      "white",
+      "20 uses"
+    ]
   },
   {
-    "id": "white-random-pictures",
+    "id": "white-trend",
     "code": "WHITE-006",
-    "title": "10 Random Pictures",
+    "title": "Trend",
     "tier": "ten-times",
-    "description": "Ten random pictures from my day, because sharing little things with you matters.",
-    "tags": ["pictures", "daily", "white", "10 times"]
+    "maxUses": 15,
+    "description": "Try a fun trend together.",
+    "tags": [
+      "white",
+      "15 uses"
+    ]
   },
   {
-    "id": "white-sweet-reminders",
+    "id": "white-mini-surprise",
     "code": "WHITE-007",
-    "title": "10 Sweet Reminders",
+    "title": "Mini Surprise",
     "tier": "ten-times",
-    "description": "Ten reminders that you are beautiful, loved, enough, and never alone.",
-    "tags": ["reminder", "comfort", "white", "10 times"]
-  },
-  {
-    "id": "white-mini-surprises",
-    "code": "WHITE-008",
-    "title": "10 Mini Surprises",
-    "tier": "ten-times",
-    "description": "Ten tiny surprises, from sweet texts to little plans that make you smile.",
-    "tags": ["surprise", "cute", "white", "10 times"]
-  },
-  {
-    "id": "white-date-veto",
-    "code": "WHITE-009",
-    "title": "10 Date Veto Tokens",
-    "tier": "ten-times",
-    "description": "Ten chances to reject a date idea and make me come up with a better one.",
-    "tags": ["date", "choice", "white", "10 times"]
-  },
-  {
-    "id": "white-extra-cuddly-texts",
-    "code": "WHITE-010",
-    "title": "10 Cuddly Texts",
-    "tier": "ten-times",
-    "description": "Ten extra soft texts for the days you want more warmth from me.",
-    "tags": ["text", "cuddly", "white", "10 times"]
+    "maxUses": 10,
+    "description": "A small surprise to brighten the day.",
+    "tags": [
+      "white",
+      "10 uses"
+    ]
   }
 ]
