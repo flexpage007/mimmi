@@ -99,6 +99,17 @@
     ]
   },
   {
+    "id": "blue-cuddle",
+    "code": "BLUE-008",
+    "title": "Cuddle",
+    "tier": "unlimited",
+    "description": "Unlimited cuddling moments.",
+    "tags": [
+      "blue",
+      "unlimited"
+    ]
+  },
+  {
     "id": "blue-reassurance",
     "code": "BLUE-009",
     "title": "Reassurance",
@@ -181,9 +192,9 @@
     ]
   },
   {
-    "id": "red-memories-later",
+    "id": "red-memories-letter",
     "code": "RED-008",
-    "title": "Memories Later",
+    "title": "Memories Letter",
     "tier": "one-use",
     "maxUses": 1,
     "description": "A Letter for the old memories.",
